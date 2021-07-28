@@ -1,0 +1,11 @@
+void main() {
+  Map<String, String> comentarios = Map<String, String>();
+  comentarios['Java']= 'Comentario Java';
+  comentarios['Dart']= 'Comentario Dart';
+  comentarios['C#']= 'Comentario C#';
+  
+ for (var entry in comentarios.entries) {
+    print(entry.key);
+    print(entry.value);
+  };   
+}
